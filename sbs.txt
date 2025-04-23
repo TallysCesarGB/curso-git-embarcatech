@@ -1,0 +1,10 @@
+mkdir git 
+z git 
+git init 
+git branch -m main 
+touch file.txt  
+git add file.txt 
+git commit -m "my name and registration number"
+git remote add origin git@github.com:TallysCesarGB/curso-git-embarcatech.git
+git push -u origin main
+touch sbs.txt
