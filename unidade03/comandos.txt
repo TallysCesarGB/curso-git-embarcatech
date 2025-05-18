@@ -1,0 +1,49 @@
+ 4587  mkdir unidade03
+ 4588  ls
+ 4589  z unidade03
+ 4590  ls
+ 4591  touch file01.txt file02.txt file03.txt
+ 4592  ls
+ 4593  git add .
+ 4594  git commit -m "starts task and creates files"
+ 4595  ls
+ 4596  echo "file 01" >> file01.txt
+ 4597  echo "file 02" >> file02.txt
+ 4598  git diff
+ 4599  git diff --stage
+ 4600  git diff --staged
+ 4601  git log
+ 4602  git log --oneline
+ 4603  git log --graph
+ 4604  git log --decorate
+ 4605  git log --all
+ 4606  git log --oneline
+ 4607  gir status
+ 4608  git status
+ 4609  git commit -am "adds initial content of files"
+ 4610  git log --oneline
+ 4611  git revert 7a76aab
+ 4612  echo "new content file 01" >> file01.txt
+ 4613  echo "new content file 02" >> file02.txt
+ 4614  git stash
+ 4615  git checkout -b temp 
+ 4616  git switch main
+ 4617  git stash pop
+ 4618  git stash list
+ 4619  git stash status
+ 4620  git status
+ 4621  git commit -am "add new contents files"
+ 4622  git status
+ 4623  git log --oneline
+ 4624  git checkout 30545eb
+ 4625  git tag -a v1.0 -m "first version"
+ 4626  git switch main
+ 4627  ls
+ 4628  touch comandos.txt
+ 4629  git branch
+ 4630  git branch -d temp
+ 4631  git branch
+ 4632  git status
+ 4633  gedit comandos.txt
+ 4634  gedit comandos.txt &
+
